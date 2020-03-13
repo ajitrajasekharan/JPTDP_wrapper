@@ -1,5 +1,5 @@
 # JPTDP_wrapper
-A http interface wrapper around [Dat Quoc Nguyen's[(https://github.com/datquocnguyen)  [Joint POS tagging and Dependency parser[(https://github.com/datquocnguyen/jPTDP) . 
+A http interface wrapper around [Dat Quoc Nguyen's](https://github.com/datquocnguyen)  [Joint POS tagging and Dependency parser](https://github.com/datquocnguyen/jPTDP) . 
 
 
 
