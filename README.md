@@ -19,4 +19,4 @@ jPTDP requires the following software packages:
 
 ## License
 
-See [original license (GPL)[(https://github.com/datquocnguyen/jPTDP/blob/master/License.txt)
+See [original license (GPL)](https://github.com/datquocnguyen/jPTDP/blob/master/License.txt)
