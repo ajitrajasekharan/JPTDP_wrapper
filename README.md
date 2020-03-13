@@ -1,4 +1,4 @@
-# Simple HTTP rapper around [Dat Quoc Nguyen's ](https://github.com/datquocnguyen) [Joint POS Tagger and parser.](https://github.com/datquocnguyen/jPTDP)
+# Simple HTTP wrapper around [Dat Quoc Nguyen's ](https://github.com/datquocnguyen) [Joint POS Tagger and parser.](https://github.com/datquocnguyen/jPTDP)
 
 
 ### Installation
