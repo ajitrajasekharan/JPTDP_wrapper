@@ -10,6 +10,7 @@ jPTDP requires the following software packages:
 
       $ pip install cython numpy
       $ pip install dynet==2.0.3
+      $ pip install gdown
       
 * Once installed, run fetch_model.sh to download pretrained  model
 
