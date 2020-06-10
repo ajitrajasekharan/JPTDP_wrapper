@@ -17,6 +17,17 @@
 * then execute run_server.sh to expose tagging as a simple HTTP service
 
 
+## Optional server wrapper with text cleaning and simple phrase gen
+
+* Installation
+
+pip install unidecode
+cd POS_wrapper
+make
+
+* then execute run_server.sh to expose this wrapper as a service
+
+
 
 ## License
 
