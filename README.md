@@ -5,8 +5,8 @@
 
 
 * conda create -n py27 python=2.7
-* cond activate py27
-*
+* conda activate py27
+* Then execute following pip commands
 
       $ pip install cython numpy
       $ pip install dynet==2.0.3
