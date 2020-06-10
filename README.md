@@ -26,7 +26,7 @@
       $ make
 
 
-* then execute run_server.sh to expose this wrapper as a HTTP service
+* Then execute run_server.sh to expose this wrapper as a HTTP service
 
 
 
