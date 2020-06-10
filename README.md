@@ -21,9 +21,10 @@
 
 * Installation
 
-$ pip install unidecode
-$ cd POS_wrapper
-$ make
+      $ pip install unidecode
+      $ cd POS_wrapper
+      $ make
+
 
 * then execute run_server.sh to expose this wrapper as a service
 
