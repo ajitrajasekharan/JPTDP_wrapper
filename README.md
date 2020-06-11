@@ -20,7 +20,7 @@
 
 ## Optional server wrapper with text cleaning and simple phrase gen
 
-*This is required unsupervised [ NER ] (https://github.com/ajitrajasekharan/unsupervised_NER.git) *
+This is required unsupervised [ NER ] (https://github.com/ajitrajasekharan/unsupervised_NER)
 
 * Installation
 
