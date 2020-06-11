@@ -18,7 +18,7 @@
 
 
 
-## Optional server wrapper with text cleaning and simple phrase gen (this is required unsupervised NER)
+## Optional server wrapper with text cleaning and simple phrase gen (this is required unsupervised NER https://github.com/ajitrajasekharan/unsupervised_NER.git )
 
 * Installation
 
