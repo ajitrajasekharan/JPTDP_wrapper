@@ -38,7 +38,7 @@ $ wget -O POS "http://127.0.0.1:8073/John flew from New York to Rio De Janiro"
 
 The output POS file should contain
 
-[POS](POS.png)
+![POS](POS.png)
 
 
 
