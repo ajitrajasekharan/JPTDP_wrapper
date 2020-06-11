@@ -16,12 +16,9 @@
 
 * then execute run_server.sh to expose tagging as a simple HTTP service
 
-Confirm installation works by
-
-$ wget -O POS "http://127.0.0.1:8073/John flew from New York to Rio De Janiro"
 
 
-## Optional server wrapper with text cleaning and simple phrase gen
+## Optional server wrapper with text cleaning and simple phrase gen (this is required unsupervised NER)
 
 * Installation
 
@@ -31,6 +28,11 @@ $ wget -O POS "http://127.0.0.1:8073/John flew from New York to Rio De Janiro"
 
 
 * Then execute run_server.sh to expose this wrapper as a HTTP service
+
+
+Confirm installation of both servers work by
+
+$ wget -O POS "http://127.0.0.1:8073/John flew from New York to Rio De Janiro"
 
 
 
