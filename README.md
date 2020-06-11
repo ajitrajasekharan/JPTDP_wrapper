@@ -17,7 +17,10 @@
 * then execute run_server.sh to expose tagging as a simple HTTP service
 
 
+
 ## Optional server wrapper with text cleaning and simple phrase gen
+
+Note: This is required for unsupervised [NER](https://github.com/ajitrajasekharan/unsupervised_NER) 
 
 * Installation
 
@@ -27,6 +30,11 @@
 
 
 * Then execute run_server.sh to expose this wrapper as a HTTP service
+
+
+Confirm installation of both servers work by
+
+$ wget -O POS "http://127.0.0.1:8073/John flew from New York to Rio De Janiro"
 
 
 
