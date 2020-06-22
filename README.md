@@ -12,7 +12,7 @@
       $ pip install dynet==2.0.3
       $ pip install gdown
       
-* Once installed, run fetch_model.sh to download pretrained  model
+* Once installed, clone this repository; change direcory to JPTDP_wrapper; and run fetch_model.sh to download pretrained  model
 
 * then execute run_server.sh to expose tagging as a simple HTTP service
 
