@@ -11,16 +11,17 @@ except ImportError:
 
 class SentencePhraseGen(ResponseHandler.ResponseHandler):
 	def handler(self,write_obj = None):
-		print "In derived class"
+		print( "In derived class")
 		if (write_obj is not None):
-			print "Arg = ",write_obj.path[1:]
-                        param=urllib.unquote(write_obj.path[1:]).decode('utf8')
-                        param=param.replace("$","\\$")
+			print("Arg = ",write_obj.path[1:])
+			param=urllib.parse.unquote(write_obj.path[1:])
+			param=param.replace("$","\\$")
 			params = "./graph_process.sh \"%s\"" % (param)
+			print( params)
 			p = subprocess.Popen(params,shell=True,stdout=subprocess.PIPE,stderr=DEVNULL)
 			out = p.communicate()
-			print len(out)
-			print  out[0]
+			print( len(out))
+			print(  out[0])
 			if (len(out) > 1):
 				write_obj.wfile.write(out[0])
 			else:

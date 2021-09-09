@@ -4,6 +4,7 @@
 #
 from unidecode import unidecode
 import sys
+import pdb
 #import platform
 #print(platform.python_version())
 
@@ -23,6 +24,6 @@ def sbd_handle(inp_str):
 
 if __name__ == '__main__':
     try:
-        print(sbd_handle(unidecode(unicode(sys.argv[1],'utf-8'))))
+        print(sbd_handle(unidecode(str(sys.argv[1]))))
     except:
         print("Unexpected error:", sys.exc_info()[0])

@@ -18,8 +18,9 @@ Send a POST request::
     curl -d "foo=bar&bin=baz" http://localhost
 
 """
-from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
-import SocketServer
+#from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
+from http.server import BaseHTTPRequestHandler, HTTPServer
+import socketserver
 import sys
 disp_count = 0
 
