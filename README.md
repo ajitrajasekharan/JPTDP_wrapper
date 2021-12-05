@@ -12,6 +12,8 @@
       $ pip install dynet==2.0.3
       $ pip install gdown
       $ fetch_model.sh  #to download pretrained  model
+      $ pip install unidecode
+      $ (cd POS_wrapper; make)
       
 
 * then execute run_server.sh to expose tagging as a simple HTTP service
@@ -22,14 +24,8 @@
 
 Note: This is required for unsupervised [NER](https://github.com/ajitrajasekharan/unsupervised_NER) 
 
-* Installation
 
-      $ pip install unidecode
-      $ cd POS_wrapper
-      $ make
-
-
-* Then execute run_server.sh to expose this wrapper as a HTTP service
+* cd POS_wrapper; Then execute run_server.sh to expose this wrapper as a HTTP service
 
 
 Confirm installation of both servers work by
