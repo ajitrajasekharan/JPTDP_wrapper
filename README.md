@@ -6,13 +6,13 @@
 
 * conda create -n py27 python=2.7
 * conda activate py27
-* Then execute following pip commands
+* Clone this repository; Then change directory to JPTDP_wrapper and  run setup.sh which executes the following  commands
 
       $ pip install cython numpy
       $ pip install dynet==2.0.3
       $ pip install gdown
+      $ fetch_model.sh  #to download pretrained  model
       
-* Once installed, clone this repository; change direcory to JPTDP_wrapper; and run fetch_model.sh to download pretrained  model
 
 * then execute run_server.sh to expose tagging as a simple HTTP service
 
