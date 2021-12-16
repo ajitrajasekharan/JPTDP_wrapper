@@ -6,7 +6,7 @@
 
 * conda create -n py27 python=2.7
 * conda activate py27
-* Clone this repository; Then change directory to JPTDP_wrapper and  run setup.sh which executes the following  commands
+* Clone this repository; Then change directory to JPTDP_wrapper and  *run setup.sh* which executes the following  commands
 
       $ pip install cython numpy
       $ pip install dynet==2.0.3
