@@ -5,8 +5,5 @@ echo "Fetching model"
 ./fetch_model.sh
 echo "Run run_server.sh to start service"
 
-echo "Settting up aux service for NER"
-(conda deactivate; pip install unidecode;)
-(cd POS_wrapper; make)
-echo "Change directory to POS_wrappaer to run_server.sh to also  start service required for NER"
+echo "In a new shell, Change directory to POS_wrappaer to run_server.sh to also  start service required for NER"
 
